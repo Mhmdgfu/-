@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>اكواد اونلاين</title>
+<h2 id="myH2">النص الأصلي</h2>
+
+<input type="text" id="myInput">
+<button onclick="changeText()">إرسال</button>
+
+<script>
+function changeText() {
+  var x = document.getElementById("myInput").value;
+  document.getElementById("myH2").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
